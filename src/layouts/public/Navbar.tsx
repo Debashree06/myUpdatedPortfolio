@@ -2,6 +2,7 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import ResponsiveNavbar from "./ResponsiveNavbar";
+import Button from "@/components/home/Buttton";
 
 const Navbar = () => {
   const [showNav, setShowNav] = React.useState(false);
@@ -38,7 +39,7 @@ const Navbar = () => {
             {navARR.map((item, i) => (
               <div
                 key={i}
-                className="relative group hover:text-theme3 text-black"
+                className="relative group hover:text-secondary text-black"
               >
                 <Link href="/" rel="noopener noreferrer">
                   <p className="flex items-center gap-4">{item.title}</p>
@@ -47,12 +48,9 @@ const Navbar = () => {
             ))}
           </div>
           <div className="flex justify-end gap-6 items-center">
-            {/* <Link href="#contact">
-              <div className="group flex items-center gap-3 cursor-pointer bg-secondary rounded-md hover:bg-theme2 common-transition hover: px-8 py-2 text-white hover:shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)]">
-                <MdCall className="common-transition group-hover:rotate-12" />
-                CONTACT US
-              </div>
-            </Link> */}
+            <Link href="#contact">
+              <Button title={"Contact Us"} />
+            </Link>
           </div>
         </div>
       </section>

@@ -4,8 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <title>The Growing Mind</title>
-        <meta property="og:title" content="Growing Mind" />
+        <meta property="og:title" content="My Portfolio" />
         <meta
           name="description"
           content="Growing Mind, is dedicated to empower children with Autism Spectrum Disorders and other behavioral and developmental disorder. !"
