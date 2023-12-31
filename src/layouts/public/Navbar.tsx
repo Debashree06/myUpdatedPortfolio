@@ -2,7 +2,7 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import ResponsiveNavbar from "./ResponsiveNavbar";
-import Button from "@/components/home/Buttton";
+import Button from "@/components/cards/Button";
 
 const Navbar = () => {
   const [showNav, setShowNav] = React.useState(false);
