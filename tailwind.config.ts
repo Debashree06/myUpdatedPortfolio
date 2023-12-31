@@ -5,14 +5,25 @@ const config: Config = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/layouts/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    color: {
-      primary: "#FFF3EA",
-      secondary: "#FF6B00",
-      theme: "#FFF5EF",
-    },
     extend: {
+      colors: {
+        primary: "#FFF3EA",
+        secondary: "#FF6B00",
+        theme: "#FFF5EF",
+        facebook: "#4267B2",
+        instagram: "#bc2a8d",
+        twitter: "#1da1f2",
+        linkedin: "#0077b5",
+        pinterest: "#E60023",
+        whatsapp: "#25d366",
+        youtube: "#cd201f",
+      },
+      fontSize: {
+        small: "15px",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
