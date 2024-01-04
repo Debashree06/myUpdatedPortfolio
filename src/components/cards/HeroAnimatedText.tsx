@@ -9,7 +9,11 @@ export default function HeroAnimatedText() {
         eraseSpeed={150}
         typingDelay={0}
         eraseDelay={3000}
-        text={["CEO .", "Entrepreneur ."]}
+        text={[
+          "Full Stack Developer .",
+          "Web Designer .",
+          "Frontend Developer .",
+        ]}
         cursor=" "
         // cursorRenderer={(cursor: any) => (
         //   <h1 style={{ display: "none" }}>{cursor}</h1>

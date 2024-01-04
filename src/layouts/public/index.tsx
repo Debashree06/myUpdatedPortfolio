@@ -20,7 +20,7 @@ export default function PublicLayout({
         <meta property="og:url" content="" />
         <meta property="og:type" content="website" />
         <link rel="icon" href="/favicon.ico" />
-        <title>The Growing Mind</title>
+        <title>Dj Portfolio</title>
         {/* <meta
           name="description"
           content="Growing Mind, is dedicated to empower children with Autism Spectrum Disorders and other behavioral and developmental disorder. !"

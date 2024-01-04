@@ -2,8 +2,10 @@ import React from "react";
 
 const Resume = () => {
   return (
-    <section>
-      <div>This is page</div>
+    <section className="bg-primary">
+      <div className="main-container">
+        <div>8</div>
+      </div>
     </section>
   );
 };

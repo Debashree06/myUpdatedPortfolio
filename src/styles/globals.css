@@ -382,5 +382,137 @@ dialog::backdrop {
 }
 
 
+.design {
+  box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+}
 
+
+.home-four-banner-figma {
+  bottom: 20px;
+  right: -85px;
+}
+
+.home-four-banner-experience {
+  top: 100px;
+  right: -90px;
+}
+
+.home-four-banner-sketch {
+  top: 320px;
+  left: -20px;
+}
+
+.banner-three-badge {
+  width: 210px;
+  height: 210px;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  right: -145px;
+}
+
+.sub-heading {
+  margin-bottom: 10px;
+}
+
+.home-banner-shape {
+  top: 65px;
+  left: 80px;
+  width: 75%;
+}
+
+.banner-particle-one {
+  top: -60px;
+  left: -80px;
+  width: 70px;
+  animation: floatUpDown 3s infinite ease-in-out;
+}
+
+.banner-particle-three {
+  top: -40px;
+  right: 0;
+  width: 30px;
+  animation: floatUpDown 3s infinite ease-in-out;
+}
+
+.banner-particle-two {
+  width: 70px;
+  bottom: -50px;
+  left: 320px;
+  animation: floatUpDown 3s infinite ease-in-out;
+}
+
+.modal-dialogue {
+  height: max-content;
+}
+
+/* .home-four-banner-img-col {
+  background: url(../img/homeBannerFourBg.png);
+  background-repeat: no-repeat;
+  background-position: center 120px;
+  background-size: 135% 100%;
+} */
+
+.home-four-banner-spacer {
+  height: 80px;
+}
+
+.home-four-banner-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 3px;
+  background-color: var(--orange-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 3px solid transparent;
+  border-right: 3px solid transparent;
+  transition: all .4s;
+}
+
+.home-four-banner-icon:hover {
+  background-color: #fff;
+  border-color: var(--orange-color);
+}
+
+.home-four-banner-icon:hover svg {
+  color: var(--orange-color) !important;
+}
+
+.home-two-banner-circle {
+  left: 3%;
+  bottom: 0;
+  width: 80%;
+}
+
+.sidebar-social-media .social-container a svg {
+  transition: all .4s;
+}
+
+.sidebar-social-media .social-container a:hover svg {
+  color: var(--orange-color) !important;
+}
+
+.ah-headline.clip span {
+  padding: 0;
+}
+
+.animate-heading b {
+  font-weight: 700;
+}
+
+/* resume section */
+.resume-four-skill-title {
+  border-width: 0px 3px 3px 1px;
+  border-style: solid;
+  border-color: rgba(255, 107, 0, 0.2);
+  border-radius: 5px;
+}
+
+.resume-four-skill-icon-box {
+  width: 105px;
+  height: 105px;
+  margin-bottom: -10px;
+}
 

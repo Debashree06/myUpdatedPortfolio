@@ -23,10 +23,6 @@ const HeroSection = () => {
       icon: <FaInstagram />,
     },
     {
-      link: "https://twitter.com/Ashutos64871892",
-      icon: <FaXTwitter />,
-    },
-    {
       link: "https://www.linkedin.com/in/searchingyardashutosh/",
       icon: <LuLinkedin />,
     },
@@ -38,15 +34,15 @@ const HeroSection = () => {
   return (
     <section className="py-12  bg-primary">
       <aside className="main-container  hidden md:flex flex-col lg:flex-row items-center gap-8 lg:gap-20 2xl:gap-24">
-        <div className="lg:w-3/5 w-full flex flex-col gap-28">
+        <div className="lg:w-3/5 w-full flex flex-col gap-24">
           <div className="flex flex-col lg:gap-6 gap-3">
             <h1 className="flex items-start leading-7 font-light tracking-wide">
-              WELCOME TO MY PROFILE
+              I'm glad you're here.
             </h1>
             <p className="text-black font-semibold lg:text-5xl text-3xl">
-              Hi, I’m{" "}
+              Hi, 👋 I’m{" "}
               <span className="text-secondary lg:text-5xl text-3xl font-semibold">
-                Ashutosh Mohapatra
+                Debashree Jena
               </span>
             </p>
             <div className="flex items-center gap-2">
@@ -56,12 +52,13 @@ const HeroSection = () => {
               <HeroAnimatedText />
             </div>
             <p className="text-md leading-7 text-justify">
-              Founder & CEO of SearchingYard Group | Passionate visionary
-              driving innovation in the digital landscape | Transforming ideas
-              into reality | Leading a dynamic team to redefine the search
-              experience | Tech enthusiast with a commitment to excellence. |
-              Striving to connect people with information seamlessly | Let's
-              embark on a journey of endless possibilities!
+              I'm a passionate full stack developer with a love for creating
+              innovative and user-friendly web applications. With a background
+              in 1year experience, I have honed my skills in both front-end and
+              back-end development. I'm also proficient in utilizing modern
+              front-end frameworks such as React, Angular, or Vue.js to build
+              dynamic and interactive web applications | Let's embark on a
+              journey of endless possibilities!
             </p>
           </div>
           <article className="flex flex-col gap-5">
@@ -73,7 +70,7 @@ const HeroSection = () => {
                 <div key={i} className="">
                   <Link
                     href={cards.link}
-                    className="shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] cursor-pointer hover:text-white hover:bg-secondary transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-200 rounded-md w-12 h-12 items-center justify-center flex"
+                    className="cursor-pointer text-white hover:text-secondary hover:bg-white bg-secondary transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-200 rounded-md w-12 h-12 items-center justify-center flex"
                   >
                     <div className="text-xl">{cards.icon}</div>
                   </Link>
@@ -86,12 +83,9 @@ const HeroSection = () => {
             </article> */}
         </div>
         <div className="lg:w-2/5 w-full relative">
-          <div className="design absolute w-full h-4/5 bottom-0 left-0 z-10"></div>
-          <img src="/logo2.png" alt="ceo" className="relative z-20" />
+          <div className="design absolute w-full h-4/5 bottom-0 left-14 z-10"></div>
+          <img src="/slide3.png" alt="ceo" className="relative z-20" />
         </div>
-        {/* <div className="w-96">
-          <img src="/banner-01.png" alt="" />
-        </div> */}
       </aside>
       <aside className="md:hidden block main-container">
         <div className="lg:w-2/5 w-full relative">
@@ -101,12 +95,12 @@ const HeroSection = () => {
         <div className="lg:w-3/5 w-full flex flex-col gap-32">
           <div className="flex flex-col lg:gap-6 gap-3">
             <h1 className="flex items-start leading-7 font-light tracking-wide">
-              WELCOME TO MY PROFILE
+              I'm glad you're here.
             </h1>
             <p className="text-black font-semibold lg:text-5xl text-3xl">
-              Hi, I’m{" "}
+              Hi, I’m 👋
               <span className="text-secondary lg:text-5xl text-3xl font-semibold">
-                Ashutosh Mohapatra
+                Debashree Jena
               </span>
             </p>
             <div className="flex items-center gap-2">
